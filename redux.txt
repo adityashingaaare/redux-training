@@ -1,0 +1,36 @@
+Redux 
+    it is used to store manage and track state of js apps
+    it is open source javascript library
+
+    it works on three main concepts-
+        1. store : It holds state of application
+        2. action : It describes changes with state
+        3. reducer : It actually carry out state transition depending on store and action
+
+    install Redux
+    >npm i Redux
+
+
+    action: 
+        - it is plain js Object
+        - containing type property with string constant value
+
+    reducer:
+        - it is a function which takes two parameters
+            1. state of application 
+            2. action
+        
+        reducer(state,action);
+
+    store: 
+        - it stores store in it
+        - getState() returns initial state
+        - getDispatch() return updated state
+        - to access state in js app, we hae to subscribe first
+        - and at last unsubscribe
+
+
+to use redux inside react, 
+    >npm i redux
+    >npm i react-Redux
+    
